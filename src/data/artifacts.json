@@ -8,7 +8,7 @@
       "guardrails",
       "agents"
     ],
-    "href": ".agent/site.contract.yaml",
+    "href": "https://github.com/castiliad/agentsite-artifact-gallery-generated-20260516001714/blob/main/.agent/site.contract.yaml",
     "summary": "Defines mission, required sections, allowed claims, approval boundaries, and live verification expectations."
   },
   {
@@ -20,7 +20,7 @@
       "voice",
       "guardrails"
     ],
-    "href": ".agent/brand.contract.yaml",
+    "href": "https://github.com/castiliad/agentsite-artifact-gallery-generated-20260516001714/blob/main/.agent/brand.contract.yaml",
     "summary": "Captures tone, visual posture, accessibility posture, and language future agents should avoid."
   },
   {
@@ -32,7 +32,7 @@
       "build",
       "verification"
     ],
-    "href": "package.json",
+    "href": "https://github.com/castiliad/agentsite-artifact-gallery-generated-20260516001714/blob/main/package.json",
     "summary": "Runs contract, claims, SEO, link, artifact, build, and visual checks before handoff."
   },
   {
@@ -44,7 +44,7 @@
       "github-pages",
       "verification"
     ],
-    "href": "scripts/verify-deploy.mjs",
+    "href": "https://github.com/castiliad/agentsite-artifact-gallery-generated-20260516001714/blob/main/scripts/verify-deploy.mjs",
     "summary": "Checks the live GitHub Pages URL for stable expected text after deployment."
   },
   {
@@ -56,7 +56,7 @@
       "handoff",
       "agents"
     ],
-    "href": ".hermes/plans/initial-site-build.md",
+    "href": "https://github.com/castiliad/agentsite-artifact-gallery-generated-20260516001714/blob/main/.hermes/plans/initial-site-build.md",
     "summary": "Records the original brief, assumptions, non-goals, acceptance criteria, and verification commands."
   },
   {
@@ -68,7 +68,7 @@
       "patterns",
       "agents"
     ],
-    "href": ".agent/recipes/README.md",
+    "href": "https://github.com/castiliad/agentsite-artifact-gallery-generated-20260516001714/blob/main/.agent/recipes/README.md",
     "summary": "Documents reusable archetypes and section recipes future agents can score before applying."
   },
   {

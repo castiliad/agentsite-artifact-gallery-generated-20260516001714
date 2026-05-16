@@ -34,7 +34,7 @@ const typeLabels = {
 
   <p class="artifact-count" data-artifact-count aria-live="polite">Showing {artifacts.length} artifacts</p>
 
-  <div class="artifact-grid">
+  <div class="artifact-gallery-grid">
     {artifacts.map((artifact) => (
       <article class="artifact-card" data-artifact-card data-tags={(artifact.tags || []).join(' ')} data-title={`${artifact.title} ${artifact.summary} ${(artifact.tags || []).join(' ')}`.toLowerCase()}>
         <div class="artifact-card-top">
