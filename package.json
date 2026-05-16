@@ -1,0 +1,31 @@
+{
+  "name": "agentsite-artifact-gallery-generated-20260516001714",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "qa": "npm run check:contract && npm run check:claims && npm run check:seo && npm run check:links && npm run check:artifacts && npm run build",
+    "test:visual": "node scripts/visual-qa.mjs",
+    "qa:full": "npm run qa && npm run test:visual",
+    "check:contract": "node scripts/check-contracts.mjs",
+    "check:claims": "node scripts/check-claims.mjs",
+    "check:seo": "node scripts/check-seo.mjs",
+    "check:links": "node scripts/check-links.mjs",
+    "check:artifacts": "node scripts/check-artifacts.mjs",
+    "list:recipes": "node scripts/list-recipes.mjs",
+    "score:recipes": "node scripts/score-recipes.mjs",
+    "recommend:recipes": "node scripts/recommend-recipes.mjs",
+    "check:visual-divergence": "node scripts/check-visual-divergence.mjs",
+    "verify:deploy": "node scripts/verify-deploy.mjs"
+  },
+  "dependencies": {
+    "astro": "^6.3.3",
+    "typescript": "^6.0.3"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.60.0"
+  }
+}

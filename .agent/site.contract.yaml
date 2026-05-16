@@ -1,0 +1,62 @@
+name: Artifact Gallery AgentSite site contract
+version: 0.1.0
+owner_role: AgentSite maintenance agent
+site:
+  type: static_landing_page
+  framework: Astro
+  deploy_target: GitHub Pages
+  repository_visibility: public_allowed
+mission: >
+  A static AgentSite proof browser with searchable artifacts and agent-maintainable evidence data.
+brief: >
+  Create a static GitHub Pages site that demonstrates a searchable and filterable artifact gallery for contracts, QA output, deploy evidence, recipes, plans, and screenshots. Keep it backend-free and safe for autonomous agents to maintain.
+audience:
+  - "AgentSite maintainers"
+  - "Autonomous website improvement agents"
+  - "Technical reviewers evaluating static proof"
+required_sections:
+  - "hero"
+  - "static-behavior"
+  - "agent-maintenance"
+  - "safety-boundaries"
+  - "artifacts"
+  - "proof"
+  - "next_step_cta"
+recipe_registry:
+  selected_recipes:
+  - "product-cockpit"
+  - "artifact-gallery"
+  - "copy-evidence-strip"
+  archetype: "product-cockpit"
+  visual_preset: "cockpit-dark"
+  auto_recipe_selection: "not requested; default recipe selection unchanged"
+  note: Recipes are static-safe composition guidance and do not approve live data, analytics, payments, or unsupported claims.
+content_rules:
+  must_include:
+    - static GitHub Pages delivery
+    - repo-local QA
+    - no-payment mode
+  allowed_claims:
+    - "Static GitHub Pages delivery"
+    - "Search and tag filtering run in browser-only JavaScript"
+    - "Artifact data is repo-local JSON"
+    - "Payment disabled / no-payment mode"
+  must_not_include:
+    - "fake customer testimonials"
+    - "fake metrics"
+    - "unsupported guarantees"
+    - "analytics or tracking"
+    - "live payment links"
+    - "private artifact access"
+approval_required:
+  - "Adding analytics, cookies, tracking pixels, or third-party forms"
+  - "Adding payment links or enabling payment mode"
+  - "Linking private artifacts or secrets"
+  - "Introducing server-side runtime, authentication, or a database"
+qa:
+  commands:
+    - npm run qa
+    - npm run build
+verification:
+  live_url: https://castiliad.github.io/agentsite-artifact-gallery-generated-20260516001714/
+  expected_text: Artifact Gallery AgentSite

@@ -1,0 +1,107 @@
+[
+  {
+    "title": "Site contract",
+    "type": "contract",
+    "status": "verified",
+    "tags": [
+      "contracts",
+      "guardrails",
+      "agents"
+    ],
+    "href": ".agent/site.contract.yaml",
+    "summary": "Defines mission, required sections, allowed claims, approval boundaries, and live verification expectations."
+  },
+  {
+    "title": "Brand contract",
+    "type": "contract",
+    "status": "verified",
+    "tags": [
+      "brand",
+      "voice",
+      "guardrails"
+    ],
+    "href": ".agent/brand.contract.yaml",
+    "summary": "Captures tone, visual posture, accessibility posture, and language future agents should avoid."
+  },
+  {
+    "title": "QA command suite",
+    "type": "qa",
+    "status": "verified",
+    "tags": [
+      "qa",
+      "build",
+      "verification"
+    ],
+    "href": "package.json",
+    "summary": "Runs contract, claims, SEO, link, artifact, build, and visual checks before handoff."
+  },
+  {
+    "title": "Deploy verifier",
+    "type": "deploy",
+    "status": "verified",
+    "tags": [
+      "deploy",
+      "github-pages",
+      "verification"
+    ],
+    "href": "scripts/verify-deploy.mjs",
+    "summary": "Checks the live GitHub Pages URL for stable expected text after deployment."
+  },
+  {
+    "title": "Initial build plan",
+    "type": "plan",
+    "status": "planned",
+    "tags": [
+      "plan",
+      "handoff",
+      "agents"
+    ],
+    "href": ".hermes/plans/initial-site-build.md",
+    "summary": "Records the original brief, assumptions, non-goals, acceptance criteria, and verification commands."
+  },
+  {
+    "title": "Recipe registry",
+    "type": "recipe",
+    "status": "verified",
+    "tags": [
+      "recipes",
+      "patterns",
+      "agents"
+    ],
+    "href": ".agent/recipes/README.md",
+    "summary": "Documents reusable archetypes and section recipes future agents can score before applying."
+  },
+  {
+    "title": "Artifact data contract",
+    "type": "evidence",
+    "status": "static",
+    "tags": [
+      "proof",
+      "evidence"
+    ],
+    "href": "#proof",
+    "summary": "src/data/artifacts.json is validated by npm run check:artifacts before build and deploy."
+  },
+  {
+    "title": "Recipe docs",
+    "type": "evidence",
+    "status": "static",
+    "tags": [
+      "proof",
+      "evidence"
+    ],
+    "href": "#proof",
+    "summary": ".agent/recipes/artifact-gallery documents fit, static safety rules, and acceptance criteria."
+  },
+  {
+    "title": "Visual QA",
+    "type": "evidence",
+    "status": "static",
+    "tags": [
+      "proof",
+      "evidence"
+    ],
+    "href": "#proof",
+    "summary": "npm run test:visual checks desktop and mobile layouts for overflow, console errors, and visible controls."
+  }
+]

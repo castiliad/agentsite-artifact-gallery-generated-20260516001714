@@ -1,0 +1,27 @@
+name: Artifact Gallery AgentSite brand contract
+version: 0.1.0
+voice:
+  tone:
+    - crisp
+    - trustworthy
+    - clear
+    - direct
+  avoid:
+    - generic SaaS slop
+    - exaggerated AI magic
+    - fake urgency
+    - fake social proof
+visual_system:
+  direction: dark premium static app interface with accessible filters and proof cards
+  colors:
+    background: '#070b16'
+    text: '#edf2ff'
+    accent: '#85f3d7'
+    accent_secondary: '#9fb7ff'
+  typography:
+    sans: Inter
+    mono: JetBrains Mono
+accessibility:
+  responsive: true
+  semantic_sections: true
+  minimum_contrast: high on dark background
